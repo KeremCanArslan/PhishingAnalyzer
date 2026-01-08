@@ -1,0 +1,380 @@
+Received: from GVXPR04MB10922.eurprd04.prod.outlook.com (2603:10a6:150:218::9)
+ by AMBPR04MB11839.eurprd04.prod.outlook.com with HTTPS; Wed, 31 Dec 2025
+ 10:34:29 +0000
+Received: from DS7P220CA0066.NAMP220.PROD.OUTLOOK.COM (2603:10b6:8:224::17) by
+ GVXPR04MB10922.eurprd04.prod.outlook.com (2603:10a6:150:218::9) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.9478.4; Wed, 31 Dec
+ 2025 10:34:28 +0000
+Received: from DS2PEPF00003440.namprd02.prod.outlook.com
+ (2603:10b6:8:224:cafe::a6) by DS7P220CA0066.outlook.office365.com
+ (2603:10b6:8:224::17) with Microsoft SMTP Server (version=TLS1_3,
+ cipher=TLS_AES_256_GCM_SHA384) id 15.20.9478.4 via Frontend Transport; Wed,
+ 31 Dec 2025 10:34:25 +0000
+Authentication-Results: spf=pass (sender IP is 149.72.247.52)
+ smtp.mailfrom=em1488.tesla.com; dkim=pass (signature was verified)
+ header.d=tesla.com;dmarc=pass action=none header.from=tesla.com;compauth=pass
+ reason=100
+Received-SPF: Pass (protection.outlook.com: domain of em1488.tesla.com
+ designates 149.72.247.52 as permitted sender)
+ receiver=protection.outlook.com; client-ip=149.72.247.52;
+ helo=o1.ptr2410.link.tesla.com; pr=C
+Received: from o1.ptr2410.link.tesla.com (149.72.247.52) by
+ DS2PEPF00003440.mail.protection.outlook.com (10.167.18.43) with Microsoft
+ SMTP Server (version=TLS1_3, cipher=TLS_AES_256_GCM_SHA384) id 15.20.9478.4
+ via Frontend Transport; Wed, 31 Dec 2025 10:34:27 +0000
+X-IncomingTopHeaderMarker: OriginalChecksum:44FA10B1E707E69F247754713D1EE6CBB3BFA1B281FFF2756D5D0BAEE75499F0;UpperCasedChecksum:39207115CF029C52F4260B1ECC92EA7165ABD1A4AB428CD197A96A89B98D0CE6;SizeAsReceived:2165;Count:15
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=tesla.com;
+	h=content-type:date:from:mime-version:subject:reply-to:references:to:cc:
+	content-type:date:from:subject:to;
+	s=s1; bh=Ad+YCL+xJfPlTRG3LoIj5P9PTFZpOdjN5i1AggHFjnw=;
+	b=QUhpuuYTsfoF/xsACbSb1mqvUrcxfcjV7ekYAThQQETaEorttGYsE89j4eMqTdwzvv4A
+	/C0NydwaUGS341hmNhDyalgdVIoBV8TQaYwLerJtDVd91+yLltw1mz4ahaAX0eUlgWN01S
+	Md7JPp1HRY5I8uRFXYDjBQdkR1kBRNIqJti0dtXxyOh459Yq8hTqj6WoFTSlh9v68QTCS2
+	m1TD91Yw9P6w1Md0ejhU55s8J17i+tyg2GO9FW6zwGwLKgULflSVH4nJPUq1SgmAi4AWov
+	NI4KUXh8KNdJToOy0GaXk//E+8IwVR0PwfqXqzddrrHcW9q5IIh752SqBzJCE2hQ==
+Received: by recvd-5f7d95d75d-s7rkt with SMTP id recvd-5f7d95d75d-s7rkt-1-6954FC32-59
+	2025-12-31 10:34:26.908116628 +0000 UTC m=+1168070.247451307
+Received: from MTQ1ODU1MDg (unknown)
+	by geopod-ismtpd-58 (SG) with HTTP
+	id U7-beY1ZQgSlbPA7G_KkSA
+	Wed, 31 Dec 2025 10:34:26.899 +0000 (UTC)
+Content-Type: multipart/alternative; boundary=ee2e24f6589688e9917125e50c097b23e27dab36c3e4d5b94a10fd4aa8b3
+Date: Wed, 31 Dec 2025 10:34:26 +0000 (UTC)
+From: Tesla Service <noreply@tesla.com>
+Message-ID: <U7-beY1ZQgSlbPA7G_KkSA@geopod-ismtpd-58>
+Subject: Tesla Service Appointment Cancellation
+Reply-To: Tesla Service <noreply@tesla.com>
+References: <25c0abe2-43da-4b07-9cda-ccd4446fa23d@tesla.com>
+X-SG-EID: =?us-ascii?Q?u001=2EpkJMgthEzKoUQkeNDL6ppmntqWFVZ5YvrEfscfQxp=2Fjl92yYVIGQtF8ip?=
+ =?us-ascii?Q?KARAsWFsDbd9T03majdtAx71ePxzuZw=2F0feQ5c0?=
+ =?us-ascii?Q?e5zePleMPxR2BabNLMdncfrfTqh6a3fQ0t=2FteXE?=
+ =?us-ascii?Q?7oBiY8aCUmygtgKaWiN1qpLuG7515pYBfS5KTz4?=
+ =?us-ascii?Q?=2FfPOpbQ9my7P=2FL+auYls4IImCTM3WXkuJo6Bc1G?=
+ =?us-ascii?Q?cRJHspSQkKprOChxrnH3ETUxzBUAK51+gOdkY8O?= =?us-ascii?Q?+EU8?=
+X-SG-ID: =?us-ascii?Q?u001=2ESdBcvi+Evd=2FbQef8eZF3BpTL9BgbK5wfSJMJGMsmprDbECRwKzIraDx77?=
+ =?us-ascii?Q?dky5yq9UCOMtRHyUZ=2FvI+MV6BEhv4skAysIAPGI?=
+ =?us-ascii?Q?JanR8oJ8ey=2FLbotdCKaD46W5ufQaRPd3SlCtO=2FF?=
+ =?us-ascii?Q?hTR6l5DmhUndQVnkiGX7ClJhV6f2DaRHh8Cbp6R?=
+ =?us-ascii?Q?Bbyf=2FujjO6zhkgSzllUPjspyhEw3v=2Fu35kvKkMF?=
+ =?us-ascii?Q?Q=3D=3D?=
+To: keremcan_arslan@hotmail.com
+X-Entity-ID: u001.6vUxHIpEKTNc3rH+MzSNRg==
+X-IncomingHeaderCount: 15
+Return-Path: bounces+14585508-638d-keremcan_arslan=hotmail.com@em1488.tesla.com
+X-MS-Exchange-Organization-ExpirationStartTime: 31 Dec 2025 10:34:27.3219
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id: 264255e1-8e46-4d67-9da5-08de48582c72
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic: DS2PEPF00003440:EE_|GVXPR04MB10922:EE_|AMBPR04MB11839:EE_
+X-MS-Exchange-Organization-AuthSource: DS2PEPF00003440.namprd02.prod.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-UserLastLogonTime: 12/31/2025 10:22:51 AM
+X-MS-Office365-Filtering-Correlation-Id: 264255e1-8e46-4d67-9da5-08de48582c72
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 149.72.247.52
+X-SID-PRA: NOREPLY@TESLA.COM
+X-SID-Result: PASS
+X-MS-Exchange-Organization-SCL: 1
+X-Microsoft-Antispam: BCL:2;ARA:1444111002|461199028|68400799013|58200799021|47200799024|10300799038|9400799043|9000799056|1680799066|440099028|4302099013|3412199025|30041999003|1122599022|1380799030|1370799030|1360799030|1602099012|56899033;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 31 Dec 2025 10:34:27.2380
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 264255e1-8e46-4d67-9da5-08de48582c72
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-AuthSource: DS2PEPF00003440.namprd02.prod.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: GVXPR04MB10922
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:02.7122577
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.9456.013
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;ex:0;auth:1;dest:I;ENG:(5062000311)(920221119095)(90000117)(920221120095)(90012020)(91020020)(91040095)(9050020)(9100341)(944500132)(4810010)(4910033)(9575002)(10195002)(9320005)(120001);
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0wO0Q9MTtHRD0xO1NDTD0z
+X-Microsoft-Antispam-Message-Info:
+	=?utf-8?B?RzJIRFhKZWRjZ3dTZVU4N0llZVBNQlRjaExxUXRYUFVkaFkyV1NuSVhmdzEw?=
+ =?utf-8?B?ZG81dkpzdVNvbFZ5aWVxQnpkTTR4cVA5Y2lScTMzUnpuZEFJWkVxbXIya2Zt?=
+ =?utf-8?B?bDRwa0FYSTBpK0ltV2VyYnNDanBtYVNGa0JyMWk1QjMyVktzc0dIM0k1R2l5?=
+ =?utf-8?B?TXluVjFvaDV1Ujl2SUdVWFZQWjJwWDM5RjBNVEFlQXFRTVhFeEh1bXhmdi9K?=
+ =?utf-8?B?VzhxUDZid1BNVDZ5N200NDZlV09tTUdMeVF3NURtK3ZlYTlzNU1yL0NNRDRS?=
+ =?utf-8?B?YU9NRFhNNzVaZDQwdzRtd3k3OHhaNU9ScXNZaTFqaTgxSGJSdVVzNDhRUnEr?=
+ =?utf-8?B?bWYwT2xBQ3ZWVTlaYS9DcWtUN2RITDhodnErTk5RRGV1M3E0VFlnb3BDa2oz?=
+ =?utf-8?B?aXdRakE4d0dBMmxKVHFIbk9TTUU1dmkrV0dYRXgwVFlNZXZ3RFBwM09tL2lj?=
+ =?utf-8?B?RDZDOEMwRVlZN05TdkpDRXgza0wxWkdNaWFBYVNWWUYvNmFCZzNLcHA0cjNS?=
+ =?utf-8?B?cUNscnJNY2MwN2x3ZjUrMU9HSVdJaTRCQ3dJdThRVTNVL2tDV3J0QjduelNG?=
+ =?utf-8?B?eS9tOHBoR1h2cHpiUXQvbHdFZzRVSUsySWZRSTZ2RU9rYzJxU2d1MEE2aHEw?=
+ =?utf-8?B?UjdLWjJQcVBaQWRaSEtZRUx1bHJNNzBUTEpHK0xFU2F5R1ZyZUtaQmx2TGdN?=
+ =?utf-8?B?TWpFTml6dlBzUGVCWjJBUW1VYUNhajVBM2dPZGdRNTBrdFpkNHJsRjZZNStV?=
+ =?utf-8?B?OE83aW5jUXlzNTJQdkdJMUZLU2U5a1Z3ZytaenRydlh2elBMYzJBV280WjRD?=
+ =?utf-8?B?Mk5Bb2pHL2M4dmpvZkVkNzZPa2U1YkpTOVJrOU1tS05yY0krS0hWc25PSTFQ?=
+ =?utf-8?B?cXo0c3p6WWpmWmJWRi94OXFacndtWFJxb2psd0R6TnRzT21Jam41bFlremZj?=
+ =?utf-8?B?dDYwVnMyYWtQNGErWk5rQ1VJZU5XSi8wWndTK0NVa2lwWEdTNHlKdHZ5N3pm?=
+ =?utf-8?B?cnkvdlhHN1NrMUpPWVE1anJPcUZ3Mk0yUCswZW5LS0FhbU5Lb1k5NVl1S0ZH?=
+ =?utf-8?B?WWRlN09kUlZPRjdTOFY1UXRFOTltMlcrNXRDb2hzQ3MrRExYVSt0M3luNmlY?=
+ =?utf-8?B?N3IxV2xaWWkzdnBJZ2N3V0xUM3dNT0dmOE05V0MwaDhHRENZUUZvU09IZFlx?=
+ =?utf-8?B?Qklid0ViQm9RUC9ia3AxRmlDTFBTcng5clpJYzJ4WmJHeW1oeEVPS3owVzNL?=
+ =?utf-8?B?YW1TQ2tGWXdCMnMwbmlaUHNheXUzanJqRXo0UlhZVWlKbmpoclRISm43L3hH?=
+ =?utf-8?B?UzlmaXJ5RFkwODhNWlBLdTZCQVVuY09yRXJSYTZOM2NGNlQ3WGVHMDhCZ2ps?=
+ =?utf-8?B?N1NHOHBhT0d2WnoyN0hxSEkvRWc3d3ZOeVVrTmIxblFZZHVZZHlZVlEzaUNY?=
+ =?utf-8?B?VitVYUVUa3dSK2J0WmdYQk03bTFPRCtSMlBGbDE4azQ5WnB6UEpDdUZYbGpD?=
+ =?utf-8?B?NUJXc2F4NERMcTZWNEpFTGUyTWhjSTdsZ1E4WDRtaWV1Z3RnQ3RJNk1XcTAr?=
+ =?utf-8?B?V0JHT3J3OEp0djIzRmY4UkN2R21kZzBjaEh1bXhaQk94T2t0Y2xWMUlrM0Uw?=
+ =?utf-8?B?Qm9jdFVCK2JKMEZFaTlQdkU0S0dXZXU3V2ZXZWkyNTNwTFZJbWYzV0J1Ulds?=
+ =?utf-8?B?WVhhKy96U2h2NHRWNHJLQnpOSXMvc1RDenUyZnVId0lDamM5SUJ4bkRuS1ND?=
+ =?utf-8?B?VzRYem5USExKZ3pFVFNiSWIvWTlVZTdFV0VMLzFhU3N1VzZtdEx6a1lVaitZ?=
+ =?utf-8?B?bnhVU1R5NnV6T203NjZLRHpzMCtxWVRmWHgyaGZGRHh6d09Xbkp1MFdvdFBM?=
+ =?utf-8?B?ZnpRN2FaeXpwakgvSHFEUVRyb2NDbGpDQjkwRnJkQ3VnM0ZrS2ZteXZrVzlO?=
+ =?utf-8?B?bm5DU25mZlllOE5ScDk1dTRSYlMrVE14K1ZyUGVsdE9yampFVk9heFE3d2Fp?=
+ =?utf-8?B?bWRpMHZjMHl2ZS92RURUU2t4SFRmSWRSTjJXSUVKMFFzQmRpMEhSRFpSdUln?=
+ =?utf-8?B?N2dZQVVvV01RVnlIV05lMG9QWE1UL08wZUZ2dm9rSmhoWEpoT1FmeVlnK1Q1?=
+ =?utf-8?B?enEzSUY4UVpxeVYvU0JrZHNick1lSTF6NmdQR243aFRGVmtwSzRDS1pBais3?=
+ =?utf-8?B?NXI0MUxHT1RaWnBNVC9HTENsdkVrOHpJRExFUStWUGNpTW9IR0Rjb2ZzM3Bv?=
+ =?utf-8?B?NTRGZFRGQmRRTTBRMHFSTytqelRrTGhDVWN2UzFmWkpVRzZrcE9uMFBwRlpx?=
+ =?utf-8?B?OXhkWGRHbUp4WFhlMDdybWpKcSt2VEpQb1Ryd0R4OGF4a0ZuWVZWRmRETGlL?=
+ =?utf-8?B?MGx1RmJ5eXQyR21mdHZiZElsZE10RlpTVEZhakdMWDFMWTlhME9CY3I1ZktY?=
+ =?utf-8?B?TUxlZ25HTjJqblRmUmJQYnNpNjVJRnhHRlVNOFNYajJIRUZMaFFpWHBEOGZ5?=
+ =?utf-8?B?NjBNZzZpRksxNXBLU0ZZUzhBeXIySDhDeUdDRVdiNFh1dUhVd2JLV2JOWXl0?=
+ =?utf-8?B?dnJCL1N3eDJMWU1Cc09EM2kyVEtodmdQR0IwY1hObEpXU2szVDFqNjVReERv?=
+ =?utf-8?B?VVVMSWdxUHIwZ1Qwb3BJbW1tRmZCQk5iNzNCa0lFb3lRZmMySS9BNm1xdDls?=
+ =?utf-8?B?TmFaaW4yQ0JmR3A3Qnc1R2pJdGU2MWMraFhNbnd6aVpWMUZzbVlIZk84ZjNj?=
+ =?utf-8?B?WW9vTnhIRGU4NG9zaXBMRGRack9TUDhmOVRyVlZkdjhCeHRyakVuOVRDdi80?=
+ =?utf-8?B?clVQSEtOUStEQ21SZmJxUXpKUFVZdUNnT0xlWFVqVEl4Y25YVmN3TVo3WGdT?=
+ =?utf-8?Q?HdQuLC3Aujp1H0btnXMgoUagIe0DyjFhRD6GLzPg=3D?=
+MIME-Version: 1.0
+
+--ee2e24f6589688e9917125e50c097b23e27dab36c3e4d5b94a10fd4aa8b3
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset=iso-8859-1
+
+Tesla
+[https://link.tesla.com/ls/click?upn=3Du001.pWUC6dM8Msun3LxPCegEXK2iwXgo4rP=
+ue6ahHxGd5kTRoFJ8uyMa7dLLIbbIdaZYXTk-2F3ghHvcmuAwlUqPpZ3bFlPOAvVQUsEmAY-2FL=
+-2BjlgEgem-2FVGR52cNg4XwZlpYWAU2qX3j9k2fsvdXXCIQ8rPg-3D-3DRlGP_BbbsJc7QPdNi=
+dCiZAUTts9wDtcm1ZypEbzpN-2BWoMUdDUxdBOQ9SgUW0gHmzR6Yb80omMdCS07-2Fk1TnU64Hk=
+wcGXO438MVcIWjvx6fwjh4ZRj0Bz9mNiBWRJxbHsk5xQNBcs-2BpqtancbFe3n6Y6LH4x22A91k=
+DtfNvXwAgnwTC1BbJ40zDrAvmGXkfmuD-2FOQiKWE7U2U1czWuLIS-2BClpCbsgqS-2BzdiRgHa=
+mmU1BUzrXear3CwerLyyuZOqA0KO9A8-2FfhxBJBrbpiR-2BXnm0usSYkS-2BNMskizzrv-2B6H=
+ujybCJvbCjAURtqoSfxa7ZpPMBfcL2GT-2F-2FagvhuhlYe45il7LIV9SamrH9nCpJMWKNi6vtK=
+ZKYVQRggi-2Br1INI9LO-2FuD]
+Service Appointment Canceled
+Your Model 36 service appointment has been cancelled for January 15, 2026 9=
+:15 AM at the Tesla Service Ankara  Service Center.
+For additional questions, visit our=A0support pages
+[https://link.tesla.com/ls/click?upn=3Du001.pWUC6dM8Msun3LxPCegEXP7mxmkRB4a=
+I-2FqLNRSYd4cCJ9BiLhsAe7bhy2xKbTuIgAxSlPUiy-2FQ9QGylvQ-2Fbv2HNEMXDKeEbXgK7w=
+rRFTJCg-3Dpejs_BbbsJc7QPdNidCiZAUTts9wDtcm1ZypEbzpN-2BWoMUdDUxdBOQ9SgUW0gHm=
+zR6Yb80omMdCS07-2Fk1TnU64HkwcGXO438MVcIWjvx6fwjh4ZRj0Bz9mNiBWRJxbHsk5xQNBcs=
+-2BpqtancbFe3n6Y6LH4x22A91kDtfNvXwAgnwTC1BbJ40zDrAvmGXkfmuD-2FOQiKWE7U2U1cz=
+WuLIS-2BClpCbsgqS-2BzdiRgHammU1BUzrXeZ25WSByB6xiKzVixDP5bzDw2bLHLup0P81VJP-=
+2FXH9-2BmIm-2B3hk-2BT7s7w7yHqB0ekIQPw4obzuyCXxbWnG-2FkgKeFx4pyDqp1uhoAY-2B8=
+ljbcfR7DzVIW-2BZdZ8b3-2BnqYIlGV-2FX0x3NidbdYye8n3azGQO].
+2025 Tesla,=A0Inc.
+[https://link.tesla.com/ls/click?upn=3Du001.pWUC6dM8Msun3LxPCegEXK2iwXgo4rP=
+ue6ahHxGd5kTRoFJ8uyMa7dLLIbbIdaZYXTk-2F3ghHvcmuAwlUqPpZ3bFlPOAvVQUsEmAY-2FL=
+-2BjlgEgem-2FVGR52cNg4XwZlpYWAS-2FFj2hA33WW-2BI4dOxpzYPA-3D-3DdQVK_BbbsJc7Q=
+PdNidCiZAUTts9wDtcm1ZypEbzpN-2BWoMUdDUxdBOQ9SgUW0gHmzR6Yb80omMdCS07-2Fk1TnU=
+64HkwcGXO438MVcIWjvx6fwjh4ZRj0Bz9mNiBWRJxbHsk5xQNBcs-2BpqtancbFe3n6Y6LH4x22=
+A91kDtfNvXwAgnwTC1BbJ40zDrAvmGXkfmuD-2FOQiKWE7U2U1czWuLIS-2BClpCbsgqS-2Bzdi=
+RgHammU1BUzrXdxtv-2FogJ9RPF2thMRVqR6AIYxiOFSnKPkKWbND-2F1HrfFqIawfPE6-2FQ-2=
+FGodHchM1c5gx3KbIMUOfBzDVC4838aAz8KKNcY-2F7wuvnDqwltGLr6pGVVfXBv6GjhCm4Ucw9=
+sz2GkzekjkzzZxfArfuRWTw]
+Privacy & Legal [https://link.tesla.com/ls/click?upn=3Du001.pWUC6dM8Msun3Lx=
+PCegEXDvSxkcgVormw3sVvuMG5OpOlo-2BPv7cTK5jwCeOToxHsIqZjmlAa4i07AwD768EDyuhn=
+Z92D14oHLUht8KifRH4-3DQO9l_BbbsJc7QPdNidCiZAUTts9wDtcm1ZypEbzpN-2BWoMUdDUxd=
+BOQ9SgUW0gHmzR6Yb80omMdCS07-2Fk1TnU64HkwcGXO438MVcIWjvx6fwjh4ZRj0Bz9mNiBWRJ=
+xbHsk5xQNBcs-2BpqtancbFe3n6Y6LH4x22A91kDtfNvXwAgnwTC1BbJ40zDrAvmGXkfmuD-2FO=
+QiKWE7U2U1czWuLIS-2BClpCbsgqS-2BzdiRgHammU1BUzrXd-2FtzO4EKOhYUHsGLT7e1wJzIb=
+kF8A1ZhnEu1N7R1WOcs08Yl-2FK6rZBW6jnuwYa-2Fg6b8njSEVhjSzscygtXH82LoF1oqV3Kvd=
+x39knkg1v-2B36Tm-2BXh9ErMs8VpzUUdYIvVM3S230ZwygXWVq0eI6lW6]
+--ee2e24f6589688e9917125e50c097b23e27dab36c3e4d5b94a10fd4aa8b3
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=utf-8
+
+<!DOCTYPE html><html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn:=
+schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:offi=
+ce"><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"><t=
+itle> </title> <!--[if !mso]><!--> <meta http-equiv=3D"X-UA-Compatible" con=
+tent=3D"IE=3Dedge"> <!--<![endif]-->  <meta name=3D"viewport" content=3D"wi=
+dth=3Ddevice-width, initial-scale=3D1"> <style type=3D"text/css"> #outlook =
+a { padding:0; } body { margin:0;padding:0;-webkit-text-size-adjust:100%;-m=
+s-text-size-adjust:100%; } table, td { border-collapse:collapse;mso-table-l=
+space:0pt;mso-table-rspace:0pt; } img { border:0;height:auto;line-height:10=
+0%; outline:none;text-decoration:none;-ms-interpolation-mode:bicubic; } p {=
+ display:block;margin:13px 0; } </style> <!--[if mso]> <noscript> <xml> <o:=
+OfficeDocumentSettings> <o:AllowPNG/> <o:PixelsPerInch>96</o:PixelsPerInch>=
+ </o:OfficeDocumentSettings> </xml> </noscript> <![endif]--> <!--[if lte ms=
+o 11]> <style type=3D"text/css"> .mj-outlook-group-fix { width:100% !import=
+ant; } </style> <![endif]--> <style type=3D"text/css"> @media only screen a=
+nd (min-width:480px) { .mj-column-per-100 { width:100% !important; max-widt=
+h: 100%; } } </style> <style media=3D"screen and (min-width:480px)"> .moz-t=
+ext-html .mj-column-per-100 { width:100% !important; max-width: 100%; } </s=
+tyle> <style type=3D"text/css"> @media only screen and (max-width:480px) { =
+table.mj-full-width-mobile { width: 100% !important; } td.mj-full-width-mob=
+ile { width: auto !important; } } </style> <style type=3D"text/css"> @media=
+ only screen and (max-width: 480px) { .desktop-image { display: none; } .mo=
+bile-image table { display: block !important; } } @media (max-width: 600px)=
+ { .footer-logo { width: 90px !important; } .footer-copywrite { display: bl=
+ock; } .footer-privacy-legal { padding-top: 12px !important; } } </style> <=
+meta name=3D"x-apple-disable-message-reformatting"><style type=3D"text/css"=
+> @media (max-width: 600px) { .mobile-images { padding: 16px 24px !importan=
+t; } .mobile-images img { height: 36px !important; } .footer-logo { width: =
+90px !important; } .cta { padding: 24px !important; } .cta table { width: 1=
+00%; } .firebolt-footer { padding: 32px 24px !important; } .te-table-styles=
+ { padding: 16px 24px !important; } .te-table-styles table { font-size: 14p=
+x !important; } .wordmark img { width: 32px !important; height: 32px !impor=
+tant; } td.wordmark { padding: 24px 24px 0px 24px !important; } .body-image=
+ { padding: 40px 24px !important; } .title-text { padding: 32px 24px 16px 2=
+4px !important; } .title-text > div { font-size: 20px !important; line-heig=
+ht: 28px !important; letter-spacing: 0.2px !important; } td.subtitle-text {=
+ padding: 0px 24px 16px 24px !important; } .default-text { padding: 16px 24=
+px !important; } .disclaimer-text { padding: 32px 24px !important; } .miles=
+tones { padding: 16px 24px !important; } .section-col { padding: 0px !impor=
+tant; } .highlight-section > table > tbody > tr > td { padding:12px 24px !i=
+mportant; } .highlight-section .default-text, .highlight-section .te-table-=
+styles, .highlight-section .milestones { padding: 12px 0 !important; } div.=
+cta-section { padding: 32px 24px !important; } .cta-section-first-col,.cta-=
+section-second-col { padding: 0 !important; } .cta-section-first-col td.cta=
+ { padding: 0 0 8px 0 !important; } .cta-section-second-col td.cta { paddin=
+g: 8px 0 0 0 !important; } div.cta-section { padding: 32px 24px !important;=
+ } .cta-section-first-col,.cta-section-second-col { padding: 0 !important; =
+} .cta-section-first-col td.cta { padding: 0 0 8px 0 !important; } .cta-sec=
+tion-second-col td.cta { padding: 8px 0 0 0 !important; } } .container-bott=
+om-padding { padding-bottom: 80px !important; } </style> </head> <body styl=
+e=3D"background-color: #f4f4f4; word-spacing: normal;"> <div style=3D"displ=
+ay:none;font-size:1px;line-height:1px;max-height:0px;max-width:0px;opacity:=
+0;overflow:hidden;mso-hide:all;">Thank you for choosing Tesla</div><div sty=
+le=3D"display:none;font-size:1px;line-height:1px;max-height:0px;max-width:0=
+px;opacity:0;overflow:hidden;mso-hide:all;"> &nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+ </div>  <div style=3D""> <!--[if mso | IE]><table align=3D"center" border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"shell-outlook" role=3D"=
+presentation" style=3D"width:600px;" width=3D"600" bgcolor=3D"#FFFFFF" ><tr=
+><td style=3D"line-height:0px;font-size:0px;mso-line-height-rule:exactly;">=
+<![endif]--> <div class=3D"shell" style=3D"background:#FFFFFF;background-co=
+lor:#FFFFFF;margin:0px auto;max-width:600px;"> <table align=3D"center" bord=
+er=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D=
+"background:#FFFFFF;background-color:#FFFFFF;width:100%;"> <tbody> <tr> <td=
+ style=3D"direction: ltr; font-size: 0px; text-align: center; padding: 0;" =
+align=3D"center"> <!--[if mso | IE]><table role=3D"presentation" border=3D"=
+0" cellpadding=3D"0" cellspacing=3D"0"><tr><td class=3D"container-outlook" =
+style=3D"vertical-align:top;width:600px;" ><![endif]--> <div class=3D"mj-co=
+lumn-per-100 mj-outlook-group-fix container" style=3D"font-size: 0px; text-=
+align: left; direction: ltr; display: inline-block; vertical-align: top; wi=
+dth: 100%; padding: 0;"> <table border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" role=3D"presentation" style=3D"vertical-align:top;" width=3D"100%"> =
+<tbody> <tr> <td align=3D"left" class=3D"wordmark" style=3D"font-size: 0px;=
+ word-break: break-word; padding: 48px 56px 4px 56px;"> <table border=3D"0"=
+ cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"border-=
+collapse:collapse;border-spacing:0px;"> <tbody> <tr> <td style=3D"width:550=
+px;"> <img alt=3D"Tesla" height=3D"44" src=3D"https://digitalassets-account=
+s.tesla.com/image/upload/f_auto,q_auto/FireboltCommunications/Tesla_Logo" s=
+tyle=3D"border: 0; display: block; outline: none; text-decoration: none; fo=
+nt-size: 13px; width: 44px; height: 44px;" width=3D"44"> </td> </tr> </tbod=
+y> </table> </td> </tr> <tr> <td align=3D"left" class=3D"title-text" style=
+=3D"font-size: 0px; word-break: break-word; padding: 32px 56px 16px 56px;">=
+ <div style=3D"font-family: Arial; font-weight: bold; text-align: left; col=
+or: #000000; font-size: 28px; line-height: 36px; letter-spacing: 0.2px;">Se=
+rvice Appointment Canceled</div> </td> </tr> <tr> <td align=3D"left" class=
+=3D"default-text" style=3D"font-size: 0px; word-break: break-word; padding:=
+ 16px 56px;"> <div style=3D"font-family: Arial; font-size: 17px; text-align=
+: left; color: #5C5E62; line-height: 26px;"><p style=3D"margin-top: 4px; ma=
+rgin-bottom: 4px;">Your Model 36 service appointment has been cancelled for=
+ January&nbsp;15,&nbsp;2026&nbsp;9:15&nbsp;AM at the Tesla Service Ankara  =
+Service Center.</p></div> </td> </tr> <tr> <td align=3D"left" class=3D"defa=
+ult-text" style=3D"font-size: 0px; word-break: break-word; padding: 16px 56=
+px;"> <div style=3D"font-family: Arial; font-size: 17px; text-align: left; =
+color: #5C5E62; line-height: 26px;"><p style=3D"margin-top: 4px; margin-bot=
+tom: 4px;">For additional questions, visit our&nbsp;<a href=3D"https://link=
+.tesla.com/ls/click?upn=3Du001.pWUC6dM8Msun3LxPCegEXP7mxmkRB4aI-2FqLNRSYd4c=
+CJ9BiLhsAe7bhy2xKbTuIgC5hx5Xn9BdFGrVjKhydLdCPEKrIo-2Bdtkw1ovaZnRevTZej9VdeI=
+-2BseoqlwZ4YrBC1CNLG0bm9-2Fpj8ve-2F-2Ffz0awSqUUW-2Fp3EgDBxzk7686fG-2Bd9Ftkg=
+cMkboUqojIogelMTzRhUwx6pqSLMwxgmNw-2F4Up8tQYNNJrhp6fCT3fer-2FZ9-2BmDwxuF8jy=
+OEtzfFux-2BRwXHu9tN0k2pYoy8cqEjDw-3D-3Dm9SC_BbbsJc7QPdNidCiZAUTts9wDtcm1Zyp=
+EbzpN-2BWoMUdDUxdBOQ9SgUW0gHmzR6Yb80omMdCS07-2Fk1TnU64HkwcGXO438MVcIWjvx6fw=
+jh4ZRj0Bz9mNiBWRJxbHsk5xQNBcs-2BpqtancbFe3n6Y6LH4x22A91kDtfNvXwAgnwTC1BbJ40=
+zDrAvmGXkfmuD-2FOQiKWE7U2U1czWuLIS-2BClpCbsgqS-2BzdiRgHammU1BUzrXekKGCmBElO=
+QItLHocYREg5V06y1SyIyCYWUPOuzeY1ONf5YI9KVyjhj7aKUgJcChxIOBFKxIwuuVTyGvbM35Q=
+QVVIpXUs8-2B-2Fb0dsC9WsO-2BTM24oJYEfDiP1zRto-2BsA-2FwbUPfuja4fFywXcSn2joAL1=
+" rel=3D"noopener noreferrer" target=3D"_blank" id=3D"link38" style=3D"colo=
+r: #5C5E62; text-decoration: underline;">support pages</a>.</p></div> </td>=
+ </tr> <tr> <td align=3D"left" class=3D"firebolt-footer" style=3D"font-size=
+:0px;padding:44px 56px 0px 56px;word-break:break-word;"> <div style=3D"font=
+-family:Arial;font-size:13px;line-height:1;text-align:left;color:#000000;">=
+<table class=3D"footer-table-container footer-bottom-padding" width=3D"100%=
+" style=3D"width: 100%; border-top: 1px solid #A2A3A5;"> <tbody><tr class=
+=3D"footer-text-first" style=3D"color: #5C5E62; font-weight: 700; font-size=
+: 14px; line-height: 18px; font-family: 'Arial';"> <td class=3D"footer-copy=
+-right" style=3D"padding-top: 8px;"> 2025 Tesla,&nbsp;Inc. </td> <td class=
+=3D"footer-logo-container" style=3D"text-align: right; padding-top: 8px;" a=
+lign=3D"right"> <img class=3D"footer-logo" src=3D"https://digitalassets-acc=
+ounts.tesla.com/image/upload/f_auto,q_auto/FireboltCommunications/wordmark"=
+> </td> </tr> <tr> <td class=3D"footer-privacy-legal" style=3D"padding-top:=
+ 16px; padding-bottom: 80px;"> <a href=3D"https://link.tesla.com/ls/click?u=
+pn=3Du001.pWUC6dM8Msun3LxPCegEXDvSxkcgVormw3sVvuMG5OpOlo-2BPv7cTK5jwCeOToxH=
+siImvF8694ylFLtZ8ekned7h95ChVukME4f7PApOGtb38ovjWfrZgKBDGuRQdLJPMX-2B6FBCiW=
+3yo2T2klF6f97H4I6nE1m4JYDEUMAj-2FZMFqgChupL5x8p92-2FZpXJSKxTBlpefOYgcfOR0yW=
+piWtP9Dfs4hVwlJVBiFm0FQsLZhrme-2B7eVMBlKTsS6CFI8NBorCPb9YYSKIB6PiNaVSaLsg-3=
+D-3DGuW1_BbbsJc7QPdNidCiZAUTts9wDtcm1ZypEbzpN-2BWoMUdDUxdBOQ9SgUW0gHmzR6Yb8=
+0omMdCS07-2Fk1TnU64HkwcGXO438MVcIWjvx6fwjh4ZRj0Bz9mNiBWRJxbHsk5xQNBcs-2Bpqt=
+ancbFe3n6Y6LH4x22A91kDtfNvXwAgnwTC1BbJ40zDrAvmGXkfmuD-2FOQiKWE7U2U1czWuLIS-=
+2BClpCbsgqS-2BzdiRgHammU1BUzrXdESk8koyZow0vbhlHoiEy7G9n3sIxww2mSjtKQ6ARhqE9=
+FGWxdKylQKKTGlK4x27cCShuyKjYVlg66lmbbwcDw6xh9Fm3-2Fc77oubt6HESn8L-2FNdrwSXO=
+CMJ6VYZiz0nzPXZ-2BRXlfLnY9hX24RGNQF9" target=3D"_blank" style=3D"color: #5C=
+5E62; font-weight: 700; font-size: 14px; line-height: 18px; font-family: 'A=
+rial'; text-decoration: none;">Privacy &amp; Legal</a></td> </tr> </tbody><=
+/table></div> </td> </tr> </tbody> </table> </div> <!--[if mso | IE]></td><=
+/tr></table><![endif]--> </td> </tr> </tbody> </table> </div> <!--[if mso |=
+ IE]></td></tr></table><![endif]--> </div>  <img src=3D"https://link.tesla.=
+com/wf/open?upn=3Du001.ZvJFWjxqtPGhLkdO4ktlzvehyN3k75Ac51WXHSCs-2F8AkDWhP2e=
+7u0nWQ8nHSFRBHigBUqMR-2FTD8jksQDypIc57H0nI7KumJxXkU5DIW8SfCuU0-2Fn2-2Bu1Tp7=
+LdwjYF3FKY6CLDQ5AeUo-2BkqYbVGgTjXllPpGFv7Vk-2FGr6JsEaGrvV-2BBXdqhdtOXg46iV3=
+GmNA-2BigWGdWNBrOtxX48yCfgC9ldc88ZBsJIH-2FD9nZTjEaXzuDFDW60BGyrxX27b9pU5Mq4=
+OXQUUEXegr-2BMYNe-2B-2B7IvUuL0ptRcbEUuOLRmcPSrf0tNbJTrvZHgVYdcmu7o1V5nrhVOm=
+-2F-2BW0lSJl4oArRzr3LT4PktwAj-2Budp-2Brw-2BzJyopo1YCQAYJLOpmzXfcV4" alt=3D"=
+" width=3D"1" height=3D"1" border=3D"0" style=3D"height:1px !important;widt=
+h:1px !important;border-width:0 !important;margin-top:0 !important;margin-b=
+ottom:0 !important;margin-right:0 !important;margin-left:0 !important;paddi=
+ng-top:0 !important;padding-bottom:0 !important;padding-right:0 !important;=
+padding-left:0 !important;"></body></html>=
+
+--ee2e24f6589688e9917125e50c097b23e27dab36c3e4d5b94a10fd4aa8b3--

@@ -1,0 +1,421 @@
+Received: from OSKPR04MB11390.eurprd04.prod.outlook.com (2603:10a6:e10:96::5)
+ by AMBPR04MB11839.eurprd04.prod.outlook.com with HTTPS; Sun, 28 Dec 2025
+ 13:52:00 +0000
+Received: from SA1P222CA0084.NAMP222.PROD.OUTLOOK.COM (2603:10b6:806:35e::25)
+ by OSKPR04MB11390.eurprd04.prod.outlook.com (2603:10a6:e10:96::5) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.9456.14; Sun, 28 Dec
+ 2025 13:51:59 +0000
+Received: from SN1PEPF0002BA4D.namprd03.prod.outlook.com
+ (2603:10b6:806:35e:cafe::ec) by SA1P222CA0084.outlook.office365.com
+ (2603:10b6:806:35e::25) with Microsoft SMTP Server (version=TLS1_3,
+ cipher=TLS_AES_256_GCM_SHA384) id 15.20.9456.14 via Frontend Transport; Sun,
+ 28 Dec 2025 13:51:54 +0000
+Authentication-Results: spf=pass (sender IP is 17.111.110.124)
+ smtp.mailfrom=email.apple.com; dkim=pass (signature was verified)
+ header.d=email.apple.com;dmarc=pass action=none
+ header.from=email.apple.com;compauth=pass reason=100
+Received-SPF: Pass (protection.outlook.com: domain of email.apple.com
+ designates 17.111.110.124 as permitted sender)
+ receiver=protection.outlook.com; client-ip=17.111.110.124;
+ helo=rn2-txn-msbadger08107.apple.com; pr=C
+Received: from rn2-txn-msbadger08107.apple.com (17.111.110.124) by
+ SN1PEPF0002BA4D.mail.protection.outlook.com (10.167.242.70) with Microsoft
+ SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.9478.4 via Frontend Transport; Sun, 28 Dec 2025 13:51:58 +0000
+X-IncomingTopHeaderMarker: OriginalChecksum:DA3B505C7C5A0FA8D8B9E235BD9EFA4BC10AB076A70DAD5A8C2A90AF72BB55AE;UpperCasedChecksum:AAED0B7A79914D94B128F540F421AD2F129D267949A150AC9DD047240BC00678;SizeAsReceived:1653;Count:17
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=email.apple.com;
+	s=email0517; t=1766929916;
+	bh=JyVi4HWvOxb1LenG4ibhtSDVeadqogkJYziyzxLCv2M=;
+	h=Date:From:To:Message-ID:Subject:Content-Type;
+	b=OtAuoXbpLzb0FPbxcu58fK921lLhGVvVfR8Cm9bN2QGUTWrfcaZAFy5y8n7WOo5OP
+	 +FVRmmToxTT+weBhpmfHkNowDpmYBz9CS67XQ3IZ0rPgsC1aHT50IUckvkZPhpY7Il
+	 laWuCUVeqC12lORZsKlKykmxDVYWDO5CQaGan57YcIPlHblqm2fv2UburBsyTGFOxm
+	 +9VhB2hnQATW5wdGGyc96C9xEHssfjLgbKP6MR9PwlhhWKHbXidM+tglaCeNdWnRnN
+	 wYTao/bTBHj/0nJ8fhnpJHlxfLXxJf8IdsQeIAumqnkw/LS+BYHaEtvTcIpigO6Jk4
+	 UiQDXbm/ffNuw==
+Date: Sun, 28 Dec 2025 13:51:56 +0000 (GMT)
+From: Apple <no_reply@email.apple.com>
+To: Keremcan_arslan@hotmail.com
+Message-ID: <2052851912.323641946.1766929916317@email.apple.com>
+Subject: Billing Problem
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_323641944_1889376228.1766929916317"
+X-Broadcast-Id: 10631
+X-Attach-Flag: N
+X-COMMS-C: false
+X-Sent-To: Keremcan_arslan@hotmail.com,2,IUKo8Jyt82UJpnt5cPyR6WAFSWdvRntL3OO8yV47byxkyXJUnAIbeIpFUZKopOOYnLpsWUqbQ4%2BK9IixjwUR8rBmvZu%2BYknvWEcYnAjwjUN5FPQsTcuY%2B8CER3GIqUzHzUvZHa1HBCsMqDI%2BypvTaKc1WtBVudd1mY2massvLf8MYeP1yMYWObO3CbdwAnFdkfuwrtrRv4r8FTjDkHK%2FDwc6pXW96oxjOBtgM0QggkkaLrqRFDtS4b1%2ByUbJdgqS2SSUIMnuqLyQ74sZi7kOzzbSu3ZZ69XtEamUGfz6j%2F%2BBQeJHizk5mkIQK6agrmr4dco4F8Fh0Mp%2Bc%2BqUSVM2T48SCEiA6FhQUclxpdhiK8AALfDHogsxrNrYCaGp8QigByj3nYZ%2B7Q%2Fov%2FCcp%2F0b6S38%2FzPfK6z56%2B%2FqOW5z6CcgPPUno6bcEiZexJ53zZR2wN3pGSWZZudnRbGFRs2nyQ%3D%3D
+X-TXN_ID: 117f8c66-b8a7-4cca-a86e-66022e3e37b1
+X-DKIM_SIGN_REQUIRED: YES
+X-EmailType-Id: 10631
+X-Business-Group: iTunes
+X-Country: US
+X-IncomingHeaderCount: 17
+Return-Path: no_reply@email.apple.com
+X-MS-Exchange-Organization-ExpirationStartTime: 28 Dec 2025 13:51:58.6311
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id: 556dc968-c636-4051-a058-08de46184523
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic: SN1PEPF0002BA4D:EE_|OSKPR04MB11390:EE_|AMBPR04MB11839:EE_
+X-MS-Exchange-Organization-AuthSource: SN1PEPF0002BA4D.namprd03.prod.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-UserLastLogonTime: 12/28/2025 1:24:10 PM
+X-MS-Office365-Filtering-Correlation-Id: 556dc968-c636-4051-a058-08de46184523
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 17.111.110.124
+X-SID-PRA: NO_REPLY@EMAIL.APPLE.COM
+X-SID-Result: PASS
+X-MS-Exchange-Organization-SCL: 1
+X-Microsoft-Antispam: BCL:2;ARA:1444111002|9400799043|10300799038|461199028|23070799003|1680799066|68400799013|9000799056|3412199025|1290799030|4302099013|440099028|30041999003|1380799030|1360799030|1370799030|1602099012|56899033;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 28 Dec 2025 13:51:58.4234
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 556dc968-c636-4051-a058-08de46184523
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-AuthSource: SN1PEPF0002BA4D.namprd03.prod.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: OSKPR04MB11390
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:02.5734471
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.9456.000
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;ex:0;auth:1;dest:I;ENG:(5062000311)(920221119095)(90000117)(920221120095)(90012020)(91020020)(91040095)(9050020)(9100341)(944500132)(4810010)(4910033)(9575002)(10195002)(9320005)(120001);
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0wO0Q9MTtHRD0xO1NDTD0z
+X-Microsoft-Antispam-Message-Info:
+	=?utf-8?B?TVJLNmhFbXNScmhCeGNNZnVwQ1BWa1hMRU1Ib0MzQlBWaWp3RWRXMWIvZDlr?=
+ =?utf-8?B?anNhM29nZmIyN3dZR2Q0QXBjcVcweGh6S2hTZkFMZUpybHI4MWdlSjR6Vm9D?=
+ =?utf-8?B?VUIrR3Vwb1NBY1hxaGhhU1lFZy82LzA2T2ZyM3N0NTk1TXR5ZW5aMXhIbmxH?=
+ =?utf-8?B?TWw4amZ0QUx1N05XeERWQXBnTUliR0toYmRVVGpmcUlhL25hOHJLVjJTZkdT?=
+ =?utf-8?B?amdJSEdaRnYzRG8ydmRsSVA3Mi82Rkl3UFluUHhyd3lFd2liNU5BcFVkTW5E?=
+ =?utf-8?B?NVpaV0s0L2ZSUjI0RCtXZnAzSjR4NmdtcDZFMmpqcTFTd0tPWTFBZE1NUk9x?=
+ =?utf-8?B?VHJKOXI5ekNqVHJQd0tkODBpaGtUbXZXNmg3emUrb21FNEo2M24yL1lHSUZ2?=
+ =?utf-8?B?c0txOGRlTWUzdDM2ejBrRENIMHpFQWszYS9YZEswMVArWkNTdklQbVdKOGVL?=
+ =?utf-8?B?OThteFR1SklTNjBSa3A5M3ZsSDBFM0tDcHpZQzZzekUxc2hmTUIrUDgwNkFT?=
+ =?utf-8?B?Y29ndUYvTFZhdlZMdEtOOTRGZGZNQVpnOHZLaUpXb2dvbjZNbi9ZVUFqUlRy?=
+ =?utf-8?B?OTBGczVkV3IzZnVEUHVrUEZTSHgyTVBsVWpoMS9odXRRMHRqRkVucG1XNEt1?=
+ =?utf-8?B?L2NKUDZ0QWsvOUt5dmNsZ2IxM2NPeEd5ZGVxeTRxQUpqcFhuVHRKVDFhRGox?=
+ =?utf-8?B?eHl2WmF6a09hN3UwbUlsYmlVN1RQb1ExV2tyTjJnWTltQlRaREJ6aWVKRy9s?=
+ =?utf-8?B?ZUVFdi80SjY2SkpsOGZEbHJrSUhDQkR4QmIvRks1VzQ3QkN4VnpWS0pySVlu?=
+ =?utf-8?B?L0NtR0I0NzdGVEhVQmM3aWZzemVxczVaQ1pPTStROCtoZXl3aWxoMGh0VmY2?=
+ =?utf-8?B?Yk03TUVQV0NiZkRNM3VKMVBIM1QzRnd5U3VHUXpocm1PTWNyYlovV0ZMRzc3?=
+ =?utf-8?B?bkNJL1hQWVl0dGFpTFpkTEdiR2tnOXFKcTZ1bExJcWovTkZXMjkxM1dCcHhE?=
+ =?utf-8?B?WWpmbXBKays5MHJqaWd4V3F3S1kvem5nVlBDZEJBdi9DYy9SbHZEOHVjOW1H?=
+ =?utf-8?B?OXBkSkM3cDNBYWhDOHVBbWtRSlgweFJkeUt5K2ExZldyZ3Zrb282bWJZRGt6?=
+ =?utf-8?B?NUYxYlJNV2xzL3BTSUE5ZUswT1J2Y2s4clY1ZW5OQVNZdDdrNU1nWWJjTys2?=
+ =?utf-8?B?d3hydHNna29BSGVjdnQ1Zk5waWYvbkhtVnZpZTR1S0dESFF1ajV2NlFCT3Zl?=
+ =?utf-8?B?a2FVK0pjL3hrUjlLS05FMjlTSFRmeGozOVdzem1iQnpuZjNpR1I5dlZ6U1Bm?=
+ =?utf-8?B?Z3NKR2NrNnpDd1BSemZZdnVqcFJwQ0U0a3F0VGdmRlJuMEgycElTY0pkQ2J2?=
+ =?utf-8?B?ZEhQR2hUbVZacHlqK25ZRzdzSi9VMVRRUkorVjFoNzQwT1VXQmlJTU5DM0Zp?=
+ =?utf-8?B?dW5wUmk2UlUvS3hUdVMya3l6N01pbEpVNHhvWmhvcitMTG5XQXZKaWQ4WXhX?=
+ =?utf-8?B?Wk5NRm8wR2llcnBlTzBpMThXcU1walhtUDZFNmEwM2N3SVIyRWtkVThaenlS?=
+ =?utf-8?B?ZXNTNWhkblV0dGRROU1jdnliTlVVclc2d3hUZTRoNk1GYzNLNlp0RmphNVpn?=
+ =?utf-8?B?V1Q0Qnd2MjZXb01zOHFFVVAwdTB4dSt0cHVCdkx4cEF3SjZubllLKzREcUhO?=
+ =?utf-8?B?UGRQaTIvdmFreW5JZVYzZERLd0EvZUQrMFpCdkN2WG0xa2J0MUR5REFaalpz?=
+ =?utf-8?B?T3NSeVc1U1BGd2huZ0paVzRNdkJDQWlOSlF3K00weTlmOGJxZlVPbUsxY3hw?=
+ =?utf-8?B?VTJlK2k1U0ZMcmxOd0RUdzlXUmpPUDQ5c2w3TWF3N0hkbjF3R0poYmtScHcr?=
+ =?utf-8?B?Vll2WFkvMjJNak9MeDVsNnNNU1ZyRXpMTFc1S2d3Qk1zY3Jva2NnRVJscXBN?=
+ =?utf-8?B?ZUU2WDNydXNtYWxKZXF0MGxRelhXK0lpQ0Juc01mVEx2eG05Z2oyemYrYkRF?=
+ =?utf-8?B?VkN0QjRLalZQMmtRekpWU1MwMlFCNjJLSVRoOUZPTnAyN0lEcVR6cVQxeTFS?=
+ =?utf-8?B?YjdValZGOEtJRVE0WDZvWk9pc2s0d0s4NkVuTDZiaW9PSEl5Wktmc0hRQ1o4?=
+ =?utf-8?B?VzlvMTRPRG9vUFpsQklFN3ZnblgzcHAyY1JWWFZzNGM0VlpMdzBsNTA4Z2Zi?=
+ =?utf-8?B?dUJGMFNMNGErbk81SU9FWHEwQnlLczNQWVJjUmdzemZjNm1YbmVRYTUzdVlW?=
+ =?utf-8?B?L2xkSEpqdkZpWGVlRWVUalp3aWxrY0xRajNTQlRBV3hiN2tsbFlYVkowNlJK?=
+ =?utf-8?B?SlhpVG5PL3hoRlVlMmVCN3hjOUJvN3ZRdFRsSU5CekFqdktnY2QxblRWenBV?=
+ =?utf-8?B?T2hjanpkTUZuQXphRk1jQVFGQWphUHB5cE82emdBZlFhRUJ2dmN3L3JQcXdk?=
+ =?utf-8?B?VTNOY0lKVmQwR0JpeWlBcU13OVRSdy81bXVwOElycXVnR0JPR2V4N3Z3dUpQ?=
+ =?utf-8?B?Y0R6WUp5bGJRTmhpUjZ1QzlUSHNkVEN4MnE2MitLbFRPNlJFTUtNblVmdFBO?=
+ =?utf-8?B?cm1PdzIrTDdiZEJDc0N0aUJuU2RQUURQeDVPK2pCUzg5MGNyLzRvMVRNekx0?=
+ =?utf-8?B?MVFaWG5udHhHV2xJaENEdzlQU1o5dnJXQmRDaVJrcUNkazZ5YmEzcmhCOXND?=
+ =?utf-8?B?SGxkdmNPSmlKN0V1KzJQL3pHU3N5ejRCeTRCcTlOSzVXVjkrQU9JNjV3N0JR?=
+ =?utf-8?B?YnNqL01aRjRTVjI4QVl6Z1dXSzZSZXl3Zmtqa0N5MW5WRm96cHBZNW9LODRN?=
+ =?utf-8?Q?2940zWVXODVdBQrql2FK045mMH5bWT3afBnveAlNUb?=
+MIME-Version: 1.0
+
+------=_Part_323641944_1889376228.1766929916317
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: QUOTED-PRINTABLE
+Content-Disposition: inline
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.=
+w3.org/TR/html4/loose.dtd"><html lang=3D"en-GB"><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8">
+    <meta name=3D"format-detection" content=3D"telephone=3Dno">
+    <title></title>
+    <style type=3D"text/css" id=3D"contentStyles">
+.left-gutter { width: 20px !important; }
+.right-gutter { width: 20px !important; }
+a.footer-link:hover, a.highlight-link:hover, a.undecorated:hover { text-dec=
+oration: underline !important; }
+button.action {font-size: 17px;line-height: 1.47059;font-weight: 400;letter=
+-spacing: -0.022em;font-family:system-ui, -apple-system, BlinkMacSystemFont=
+, Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif;background-color: =
+#0070c9;border-color: #07c;border-width: 1px;border-style: solid;border-rad=
+ius: 4px;color: white;cursor: pointer;display: inline-block;min-width: 30px=
+;padding-left: 15px;padding-right: 15px;padding-top: 4px;padding-bottom: 4p=
+x;text-align: center;white-space: nowrap;}
+button.action:hover { background-color: #147bcd;border-color: #1482d0;text-=
+decoration: none; }
+button.action:focus { box-shadow: 0 0 0 3px rgba(131, 192, 253, 0.5);outlin=
+e: none; }
+button.action:focus[data-focus-method=3D"mouse"]:not(input):not(textarea):n=
+ot(select), button.action:focus[data-focus-method=3D"touch"]:not(input):not=
+(textarea):not(select) {box-shadow: none;}
+button.action:active { background-color: #0067b9;border-color: #006dbc;outl=
+ine: none; }
+button.action:disabled { background-color: #0070c9;border-color: #07c;color=
+: white;cursor: default;opacity: 0.3; }
+sup {font-weight: 300;}
+.gradient { background-color: #0070c9;background-image: -webkit-gradient(li=
+near, top, bottom, from(#42a1ec), to(#0070c9));background-image: -webkit-li=
+near-gradient(top, #42a1ec, #0070c9);background-image: -moz-linear-gradient=
+(top, #42a1ec, #0070c9);background-image: -o-linear-gradient(top, #42a1ec, =
+#0070c9);background-image: linear-gradient(#42a1ec, #0070c9); }
+.gradient:hover { background-color: #147bcd;background-image: -webkit-gradi=
+ent(linear, top, bottom, from(#51a9ee), to(#147bcd));background-image: -web=
+kit-linear-gradient(top, #51a9ee, #147bcd);background-image: -moz-linear-gr=
+adient(top, #51a9ee, #147bcd);background-image: -o-linear-gradient(top, #51=
+a9ee, #147bcd);background-image: linear-gradient(#51a9ee, #147bcd); }
+.gradient:active { background-color: #0067b9;background-image: -webkit-grad=
+ient(linear, top, bottom, from(#3d94d9), to(#0067b9));background-image: -we=
+bkit-linear-gradient(top, #3d94d9, #0067b9);background-image: -moz-linear-g=
+radient(top, #3d94d9, #0067b9);background-image: -o-linear-gradient(top, #3=
+d94d9, #0067b9);background-image: linear-gradient(#3d94d9, #0067b9); }
+.gradient:disabled, .gradient.disabled { background-color: #0070c9;backgrou=
+nd-image: -webkit-gradient(linear, top, bottom, from(#42a1ec), to(#0070c9))=
+;background-image: -webkit-linear-gradient(top, #42a1ec, #0070c9);backgroun=
+d-image: -moz-linear-gradient(top, #42a1ec, #0070c9);background-image: -o-l=
+inear-gradient(top, #42a1ec, #0070c9);background-image: linear-gradient(#42=
+a1ec, #0070c9); }
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {}
+@media (max-width: 768px) {
+  .aapl-desktop-tbl, #content-tbl { width: 742px !important; }
+}
+@media (max-width: 736px) {
+  .small-artwork { display: inline !important; }
+  .large-artwork { display: none !important; }
+  .large-header-logo { display: none !important; }
+  .small-header-logo { display: inline !important; }
+  .large-footer-logo { display: none !important; }
+  .small-footer-logo { display: inline !important; }
+  .paragraph-spacer { height: 15px !important; }
+  .aapl-desktop-tbl, #content-tbl { width: 480px !important; }
+  .left-gutter, .right-gutter { width: 15px !important; }
+  .wrd-break { display: block !important; }
+  .lockup-art-spacer { width: 15px !important; }
+  .footer-spacer { height: 15px !important; }
+  #agree-link { width: 350px !important; }
+}
+a[x-apple-data-detectors] {
+  color: inherit !important;
+  text-decoration: none !important;
+  font-size: inherit !important;
+  font-family: inherit !important;
+  font-weight: inherit !important;
+  line-height: inherit !important;
+}
+    </style>
+</head>
+<body bgcolor=3D"#FFFFFF" link=3D"#1187FF" vlink=3D"#1187FF" alink=3D"#1187=
+FF" leftmargin=3D"0" marginheight=3D"0" marginwidth=3D"0" topmargin=3D"0">
+     <br><br>
+<div class=3D"aapl-desktop-div" style=3D"display:block;padding:0;margin:0;h=
+eight:100%;max-height:none;min-height:none;line-height:normal;overflow:visi=
+ble;">
+<table class=3D"aapl-desktop-tbl" border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0" align=3D"center" style=3D"border-collapse:collapse;border-spacing:0=
+;width:742px;">
+  <tr>
+    <td class=3D"left-gutter" style=3D"width:50px;"></td>
+    <td>
+<img width=3D"42" height=3D"42" alt=3D"Apple" src=3D"https://s.mzstatic.com=
+/email/images_shared/logo_apple_d-2x.png" border=3D"0" style=3D"border:none=
+;padding:0;margin:0;-ms-interpolation-mode:bicubic;">
+    </td>
+    <td en-GB=3D"" false=3D"" align=3D"right" style=3D"font-size:32px; font=
+-weight:300; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; c=
+olor: rgb(136,136,136)">Billing Problem</td>
+    <td class=3D"right-gutter" style=3D"width:50px;"></td>
+  </tr>
+  <tr height=3D"20"><td colspan=3D"4">&nbsp;</td><tr>
+  <tr>
+    <td colspan=3D"4" align=3D"center">
+    <table id=3D"content-tbl" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" style=3D"font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;fo=
+nt-size:13px;width:742px;">
+        <tr height=3D"10"><td class=3D"content-lockup" bgcolor=3D"#f5f5f5" =
+colspan=3D"3" style=3D"border-top-left-raidus:2px;border-top-right-radius:2=
+px;">&nbsp;</td></tr>
+        <tr>
+            <td class=3D"content-lockup" bgcolor=3D"#f5f5f5" class=3D"left-=
+gutter" style=3D"width:20px">&nbsp;</td>
+            <td class=3D"content-lockup" bgcolor=3D"#f5f5f5" align=3D"left"=
+>
+<table class=3D"content-lockup" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" valign=3D"middle" style=3D"border-collapse:collapse;border-spacing:0=
+;background-color: rgb(245,245,245);border-radius:3px;font-size:12px;font-f=
+amily:'Helvetica Neue',Helvetica,Arial,sans-serif;">
+    <tr>
+        <td class=3D"artwork-cell" valign=3D"top" align=3D"center" style=3D=
+"padding:0;margin:0;">
+            <img class=3D"large-artwork" src=3D"https://is1-ssl.mzstatic.co=
+m/image/thumb/Purple221/v4/28/f2/63/28f2630c-1ed0-0de0-f224-43ed8d876c2e/Pr=
+oductionAppIcon-0-0-1x_U007emarketing-0-8-0-0-0-85-220.png/280x280ia.jpg" w=
+idth=3D"140" height=3D"140" border=3D"0" alt=3D" @TuncSatiroglu Aboneli=C4=
+=9Fi" style=3D"padding:0;margin:0;-ms-interpolation-mode: bicubic;border-ra=
+dius:32px;border:1px solid rgba(128,128,128,0.2);">
+            <img class=3D"small-artwork" src=3D"https://is1-ssl.mzstatic.co=
+m/image/thumb/Purple221/v4/28/f2/63/28f2630c-1ed0-0de0-f224-43ed8d876c2e/Pr=
+oductionAppIcon-0-0-1x_U007emarketing-0-8-0-0-0-85-220.png/280x280ia.jpg" w=
+idth=3D"100" height=3D"100" border=3D"0" alt=3D" @TuncSatiroglu Aboneli=C4=
+=9Fi" style=3D"display:none;padding:0;margin:0;-ms-interpolation-mode: bicu=
+bic;border-radius:22px;border:1px solid rgba(128,128,128,0.2);">
+        </td>
+        <td class=3D"lockup-art-spacer" style=3D"width:20px;"></td>
+        <td>
+            <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=
+=3D"font-size:13px;line-height:22px;letter-spacing:0.4px; color:rgb(51,51,5=
+1);">
+                    <tr><td><span style=3D"font-size:18px;">X</span></td></=
+tr>
+                    <tr><td><span style=3D"color:rgb(170,170,170);"> @TuncS=
+atiroglu Aboneli=C4=9Fi</span></td></tr>
+                    <tr><td><span style=3D"color:rgb(170,170,170);"></span>=
+</td></tr>
+                    <tr><td style=3D"padding-top: 3px;">
+                        <span style=3D"color:rgb(170,170,170);">
+ @TuncSatiroglu Aboneli=C4=9Fi (1&nbsp;month)                        </span=
+>
+                    </td></tr>
+                    <tr><td>
+                          <span style=3D"color:rgb(170,170,170);">
+                              =E2=82=BA58,20/month
+                          </span>
+                    </td></tr>
+                    <tr><td><span style=3D"color:rgb(238,2,0);"><br>Billing=
+ Problem</span></td></tr>
+            </table>
+        </td>
+    </tr>
+</table>
+            </td>
+            <td class=3D"content-lockup" bgcolor=3D"#f5f5f5" class=3D"right=
+-gutter" style=3D"width:20px">&nbsp;</td>
+        </tr>
+        <tr height=3D"10"><td class=3D"content-lockup" bgcolor=3D"#f5f5f5" =
+colspan=3D"3" style=3D"border-bottom-left-raidus:2px;border-bottom-right-ra=
+dius:2px;">&nbsp;</td></tr>
+        <tr class=3D"paragraph-spacer" style=3D"height:20px;"><td>&nbsp;</t=
+d></tr>
+        <tr>
+            <td class=3D"left-gutter" style=3D"width:20px"></td>
+            <td>Dear Kerem can,</td>
+            <td class=3D"right-gutter" style=3D"width:20px"></td>
+        </tr>
+        <tr class=3D"paragraph-spacer" style=3D"height:20px;"><td></td></tr=
+>
+        <tr>
+            <td class=3D"left-gutter" style=3D"width:20px"></td>
+            <td>To avoid interruption to your service, please update your p=
+ayment information or add funds to your account.</td>
+            <td class=3D"right-gutter" style=3D"width:20px"></td>
+        </tr>
+
+
+        <tr class=3D"paragraph-spacer" style=3D"height:20px;"><td></td></tr=
+>
+        <tr>
+            <td class=3D"left-gutter" style=3D"width:20px"></td>
+            <td>
+                <a href=3D"https://apps.apple.com/account/billing?mt=3D8&am=
+p;mtPageRef=3DBE-EML" target=3D"_blank" rel=3D"nofollow"><button class=3D"a=
+ction" style=3D"font-size: 13px;line-height: 1.47059;font-weight: 400;lette=
+r-spacing: -0.022em;font-family:system-ui, -apple-system, BlinkMacSystemFon=
+t, Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif;background-color:=
+ #027eff;border-color: transparent;border-width: 0px;border-style: none;bor=
+der-radius: 4px;color: white;cursor: pointer;display: inline-block;min-widt=
+h: 30px;padding-left: 15px;padding-right: 15px;padding-top: 4px;padding-bot=
+tom: 4px;text-align: center;white-space: nowrap;">Update Payment Informatio=
+n</button></a>
+            </td>
+            <td class=3D"right-gutter" style=3D"width:20px"></td>
+        </tr>
+
+
+
+        <tr class=3D"paragraph-spacer" style=3D"height:20px;"><td>&nbsp;</t=
+d></tr>
+        <tr>
+            <td class=3D"left-gutter" style=3D"width:20px"></td>
+            <td>Sincerely,<br>Apple</td>
+            <td class=3D"right-gutter" style=3D"width:20px"></td>
+        </tr>
+        <tr class=3D"paragraph-spacer" style=3D"height:20px;"><td>&nbsp;</t=
+d></tr>
+        <tr>
+            <td class=3D"left-gutter" style=3D"width:20px"></td>
+            <td align=3D"center" style=3D"font-size:12px;color:rgb(102,102,=
+102);line-height:18px;">For help with subscriptions and purchases, visit <a=
+ href=3D"https://support.apple.com/en-gb/billing" target=3D"_blank" rel=3D"=
+noopener nofollow">Apple Support</a></td>
+            <td class=3D"right-gutter" style=3D"width:20px"></td>
+        </tr>
+    </table>
+  </td>
+</tr>
+<tr class=3D"footer-spacer" style=3D"height:50px"><td colspan=3D"4">&nbsp;<=
+/td></tr>
+<tr>
+  <td></td>
+  <td class=3D"" colspan=3D"2" align=3D"center" style=3D"font-size:12px; fo=
+nt-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; color: rgb(102,102,=
+102)">
+    <img class=3D"large-footer-logo" width=3D"26" height=3D"26" border=3D"0=
+" alt=3D"Apple" src=3D"https://s.mzstatic.com/email/images_shared/logo_appl=
+e_small_d-2x.png" style=3D"border:none;padding:0;margin:0;-ms-interpolation=
+-mode: bicubic;">
+    <img class=3D"small-footer-logo" width=3D"14" height=3D"14" border=3D"0=
+" alt=3D"Apple" src=3D"https://s.mzstatic.com/email/images_shared/logo_appl=
+e_small_m-3x.png" style=3D"display:none;border:none;padding:0;margin:0;-ms-=
+interpolation-mode: bicubic;">
+  </td>
+  <td></td>
+</tr>
+<tr height=3D"8"><td colspan=3D"4">&nbsp;</td></tr>
+<tr>
+  <td></td>
+  <td colspan=3D"2" align=3D"center" style=3D"font-size:12px; font-family: =
+'Helvetica Neue',Helvetica,Arial,sans-serif; color: rgb(102,102,102)">
+<a href=3D"https://buy.itunes.apple.com/WebObjects/MZFinance.woa/wa/account=
+Summary?mt=3D8" style=3D"color:#0073ff;">Apple&nbsp;Account</a>&nbsp;=E2=80=
+=A2&nbsp;<a href=3D"https://www.apple.com/legal/internet-services/itunes/uk=
+/terms.html" style=3D"color:#0073ff;">Terms of Sale</a>&nbsp;=E2=80=A2&nbsp=
+;<a href=3D"https://www.apple.com/legal/privacy/" style=3D"color:#0073ff;">=
+Privacy Policy</a>
+  </td>
+  <td></td>
+</tr>
+<tr height=3D"25"><td colspan=3D"4">&nbsp;</td></tr>
+<tr>
+  <td></td>
+  <td colspan=3D"2" align=3D"center" dir=3D"auto" style=3D"font-size:12px;f=
+ont-family:'Helvetica Neue',Helvetica,Arial,sans-serif;color:rgb(102,102,10=
+2)">
+      Copyright =C2=A9 2025 Apple Distribution International Ltd. <br>
+      <a href=3D"https://www.apple.com/uk/legal/" style=3D"color:#1187FF">A=
+ll rights reserved</a>
+  </td>
+  <td></td>
+</tr>
+<tr height=3D"25"><td colspan=3D"4" height=3D"30">&nbsp;</td></tr>
+</table>
+</div>
+</body>
+</html>=
+
+------=_Part_323641944_1889376228.1766929916317--

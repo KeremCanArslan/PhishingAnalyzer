@@ -1,0 +1,7 @@
+virustotal_api.txt
+.DS_Store
+__pycache__/
+*.pyc
+secrets.txt
+.env
+api_key.txt
