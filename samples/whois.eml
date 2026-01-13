@@ -1,0 +1,29 @@
+From: "Siparis Bilgilendirme" <info@amazon-orders.com>
+To: musteri@gmail.com
+Subject: Siparisiniz Kargoya Verildi
+Date: Sun, 04 Jan 2026 16:30:00 +0300
+MIME-Version: 1.0
+Content-Type: text/html; charset="UTF-8"
+
+<html>
+<body>
+    <h3>Siparişiniz Yola Çıktı!</h3>
+    <p>Sayın Müşterimiz,</p>
+    <p>Son siparişiniz kargoya verilmiştir. Takip etmek için lütfen aşağıdaki linke tıklayınız.</p>
+    
+    <p>
+        <a href="http://buyshroomsforsaleaustralia.com/track-order">
+            Kargo Takip (Link 1)
+        </a>
+    </p>
+
+    <p>Alternatif takip linki:</p>
+    <p>
+        <a href="http://workethicacademy.com/login">
+            Hesabıma Giriş Yap (Link 2)
+        </a>
+    </p>
+
+    <p>İyi günler dileriz.</p>
+</body>
+</html>
