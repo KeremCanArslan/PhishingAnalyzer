@@ -463,7 +463,7 @@ class PhishingAnalyzerApp:
                     if HAS_WHOIS:
                         is_old, age_msg = self.network_manager.check_domain_age(domain)
                         if is_old is False: 
-                            if "YENİ" in age_msg: 
+                            if "ÇOK YENİ" in age_msg: 
                                 puan += 90
                                 loglar.append((1, f"[KRİTİK] {age_msg}", 90))
                             else: 
